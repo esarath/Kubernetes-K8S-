@@ -10,8 +10,6 @@ To bring some happiness, An alpha feature in Kubernetes helps you speed things u
 
 In the StatefulSet definition file, under rollingUpdate spec you can now mention a new field — “maxUnavailable”
 
-
-
 What does it do?
 
 For example: If you set it to 2, Kubernetes will be able to update 2 Pods, instead of updating one at a time.
